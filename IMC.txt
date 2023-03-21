@@ -1,0 +1,28 @@
+using System;
+					
+public class CalculoIMC-port7
+{
+	public static void Main()
+	{
+		float  Peso     = 0;
+		float  Altura = 0;	
+		float  IMC	    = 0;
+		String Estado   = "";
+		Char   Opcion   = ' ';
+		
+		do{
+			
+		
+			
+			Console.Title = "Calculo de IMC";
+		
+			//Solicitar Dados
+			Console.WriteLine("Digite o Peso");
+			Peso = float.Parse(Console.ReadLine());
+			
+			Console.WriteLine("Digite a Altura");
+			Estatura = float.Parse(Console.ReadLine());
+			
+			//Realizar Calculo
+			
+			IMC = (Peso/Altura * Altura));
